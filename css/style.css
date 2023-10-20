@@ -136,10 +136,13 @@ img {
 @media screen and (max-width: 768px){
 
     .container{
-        max-width: 480px;
+        max-width: 100%;
+        margin: 0;
+        justify-content: center;
     }
 
 }
+
 
 
    /* ? minore uguale di 480px */
@@ -161,7 +164,7 @@ img {
 .row {
     display: flex;
     flex-direction: column;
-     max-width: 350px;
+     max-width: 100%;
      padding: 0px;
      align-items: center;
      margin: 0;
@@ -231,9 +234,12 @@ p.text {
 
 .steps {
 
+    margin: 0rem 0;
+    padding: 3rem 0;
     color: #232946;
     background: #eebbc3;
 }
+
 
 
 
@@ -243,9 +249,33 @@ p.text {
 
 
 
+.why-us .col-left {
+    width: 80%;
+}
+
+.why-us .col-right {
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 
+.why-us {
+    display: flex;
+    margin-bottom: 0rem;
+    background-color: rgb(28, 28, 28);
+    padding: 3rem 0.5rem 3rem 0.5rem;
+    justify-content: center;
+text-align: center;
+ 
+}
 
 
 }
