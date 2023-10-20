@@ -229,20 +229,17 @@ p.text {
 
 
 
-
 .steps {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
-      width: calc(100%);
+
+    color: #232946;
+    background: #eebbc3;
 }
 
 
 
-
-
+.steps .col {
+    width: calc(100%);
+}
 
 
 
